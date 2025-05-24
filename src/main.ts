@@ -1,6 +1,6 @@
 import './style.css'
 import { Client, Databases, ID } from 'appwrite';
-import { PROJECT_ID, DATABASE_ID, COLLECTION_ID } from './config.ts';
+import { PROJECT_ID, DATABASE_ID, COLLECTION_ID } from './config';
 import { setupCounter } from './counter';
 
 const client = new Client();
