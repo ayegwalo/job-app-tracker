@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job App Management</title>
+  </head>
+  <body>
+  
+    <form action="">
+      <h2>Job Information</h2>
+    
+      <div class="form-group">
+        <label for="company-name">Company Name</label>
+        <input
+          type="text"
+          id="company-name"
+          name="companyName"
+          placeholder="e.g. Google"
+          required
+        />
+      </div>
+    
+      <div class="form-group">
+        <label for="date-added">Date Added</label>
+        <input
+          type="date"
+          id="date-added"
+          name="dateAdded"
+          placeholder="Select date"
+          required
+        />
+      </div>
+    
+      <div class="form-group">
+        <label for="role">Role</label>
+        <input
+          type="text"
+          id="role"
+          name="role"
+          placeholder="e.g. Software Engineer"
+          required
+        />
+      </div>
+    
+      <div class="form-group">
+        <label for="location">Location</label>
+        <input
+          type="text"
+          id="location"
+          name="location"
+          placeholder="e.g. San Francisco, CA"
+          required
+        />
+      </div>
+    
+      <div class="form-group">
+        <label for="position-type">Position Type</label>
+        <input
+          type="text"
+          id="position-type"
+          name="positionType"
+          placeholder="e.g. Full-time, Part-time, Contract"
+          required
+        />
+      </div>
+    
+      <div class="form-group">
+        <label for="source">Source</label>
+        <input
+          type="text"
+          id="source"
+          name="source"
+          placeholder="e.g. LinkedIn, Company Website"
+          required
+        />
+      </div>
+    
+      <div class="form-group">
+        <label for="salary">Salary</label>
+        <input
+          type="text"
+          id="salary"
+          name="salary"
+          placeholder="e.g. $100,000/year"
+          required
+        />
+      </div>
+    
+      <button type="submit">Submit</button>
+    </form>
+
+    
+    
+    
+    <div style="margin-left: 20px;">
+      <h3> Data from DB</h1>
+      <ul>
+
+      </ul>
+      <button id="counter-button"></button>
+
+    </div>
+
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
